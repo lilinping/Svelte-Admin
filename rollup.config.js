@@ -34,7 +34,7 @@ export default {
 		sourcemap: true,
 		format: 'esm',
 		name: 'app',
-		dir: 'dist/',
+		dir: 'public/build/',
 		chunkFileNames: '[name].js'
 	},
 	plugins: [

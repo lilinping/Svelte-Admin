@@ -1,3 +1,13 @@
-<h1>
+<div class="svelte-admin-home">
     home
-</h1>
+    counter value: {$counter}
+</div>
+<script>
+import { counter } from '../../store/store'
+</script>
+<style>
+.svelte-admin-home {
+    font-size: 14px;
+    color: red;
+}
+</style>
